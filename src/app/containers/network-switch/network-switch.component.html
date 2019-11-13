@@ -1,0 +1,4 @@
+<button (click)="goOnline()">Online</button>
+<button (click)="goOffline()">Offline</button>
+
+<span *ngIf="isOffline$ | async">Offline</span>
